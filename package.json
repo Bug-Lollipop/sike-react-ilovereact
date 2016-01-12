@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/xiaoxiaodepy/ilovereact/issues"
   },
-  "homepage": "https://github.com/xiaoxiaodepy/ilovereact#readme"
+  "homepage": "https://github.com/xiaoxiaodepy/ilovereact#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.0.2",
+    "postcss-cli": "^2.1.0",
+    "postcss-import": "^7.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.3",
+    "normalize.css": "^3.0.3"
+  }
 }

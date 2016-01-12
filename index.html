@@ -15,7 +15,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" type="text/css" href="/bundle/app.css">
+  <link rel="stylesheet" type="text/css" href="/bundle/app.css">
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
@@ -24,26 +24,39 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
   <!-- Add your site or application content here -->
-  <p>I love React</p>
-  <p></p>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-  <script>
-  window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>
-  var _gaq = [
-    ['_setAccount', 'UA-XXXXX-X'],
-    ['_trackPageview']
-  ];
-  (function(d, t) {
-    var g = d.createElement(t),
-      s = d.getElementsByTagName(t)[0];
-    g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s)
-  }(document, 'script'));
-  </script>
+  <div class="section">
+    <img class="react-logo" src="img/react-logo.svg" />
+    <h1>Build Native Apps With React</h1>
+    <div class="flex-derection">
+      <a class="inline" href="#native">
+      Native iOS
+    </a>
+      <a class="inline" href="#touch">
+      Touch Handling
+    </a>
+      <a class="inline" href="#async">
+      Asynchronous
+    </a>
+      <a class="inline" href="#flex">
+      Flex &amp; Styling
+    </a>
+    </div>
+  </div>
+  <div class="section flex-derection">
+    <div class="iphone-demo">
+      <img src="img/iphone-frame.svg" />
+    </div>
+    <div class="feature-description">
+      <h2>Touches &amp; Gestures</h2>
+      <p>
+        React Native implements a powerful responder system to negotiate touches in complex view hierarchies. It allows you to build complex UI, and handle user interactions precisely.
+      </p>
+    </div>
+  </div>
+  <div class="section">
+    <h1>Android Is Here</h1>
+  </div>
+  <div class="section">4</div>
 </body>
+
 </html>
