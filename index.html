@@ -24,29 +24,65 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
   <!-- Add your site or application content here -->
-  <div class="section">
+  <div id="slider-control">
+    <a href="#native" class="active">
+      <div class="dot"></div>
+    </a>
+    <a href="#touch">
+      <div class="dot"></div>
+    </a>
+    <a href="#async">
+      <div class="dot"></div>
+    </a>
+    <a href="#flex">
+      <div class="dot"></div>
+    </a>
+  </div>
+  <div id="intro-section" class="section">
     <img class="react-logo" src="img/react-logo.svg" />
     <h1>Build Native Apps With React</h1>
     <div class="flex-derection">
       <a class="inline" href="#native">
       Native iOS
-    </a>
+      </a>
       <a class="inline" href="#touch">
       Touch Handling
-    </a>
+      </a>
       <a class="inline" href="#async">
       Asynchronous
-    </a>
+      </a>
       <a class="inline" href="#flex">
       Flex &amp; Styling
-    </a>
+      </a>
+    </div>
+    <div class="overlay"></div>
+  </div>
+  <div class="section flex-derection">
+    <div class="iphone-demo">
+      <div class="iphone-image">
+        <img src="img/iphone-frame.svg" />
+        <div class="screen-image">
+          <img src="img/tumblr-demo.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="section feature-description">
+      <h2>Native Experience</h2>
+      <p>
+        Takes advantage of native iOS components to give your app a consistent look and feel with the rest of the platform ecosystem, and keeps the quality bar high.
+      </p>
     </div>
   </div>
   <div class="section flex-derection">
     <div class="iphone-demo">
-      <img src="img/iphone-frame.svg" />
+      <div class="iphone-image">
+        <img src="img/iphone-frame.svg" />
+        <div class="screen-image">
+          <img src="img/swype-demo.jpg" />
+        </div>
+      </div>
     </div>
-    <div class="feature-description">
+    <div class="section feature-description">
       <h2>Touches &amp; Gestures</h2>
       <p>
         React Native implements a powerful responder system to negotiate touches in complex view hierarchies. It allows you to build complex UI, and handle user interactions precisely.
@@ -55,8 +91,10 @@
   </div>
   <div class="section">
     <h1>Android Is Here</h1>
+    <div class="android-robot">
+      <img id="android-robot" src="img/android-robot.svg" />
+    </div>
   </div>
-  <div class="section">4</div>
 </body>
 
 </html>
